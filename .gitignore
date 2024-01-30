@@ -1,0 +1,10 @@
+db/
+media/
+static/
+*.pyc
+__pycache__/
+Pipfile.lock
+celerybeat-schedule
+*.mo
+*.swp
+tags

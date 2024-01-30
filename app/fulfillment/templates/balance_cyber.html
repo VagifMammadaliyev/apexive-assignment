@@ -1,0 +1,27 @@
+<html>
+
+
+<style>
+    * {
+        font-family: monospace;
+    }
+</style>
+
+<body>
+    <form action="{{ form_data.url }}" method="{{ form_data.method }}">
+
+
+        {% for field_data in form_data.inputs %}
+        <p><b>{{ field_data.name }}</b>: {{ field_data.value }}</p>
+        <input type="{{ field_data.type }}" name="{{ field_data.name }}" value="{{ field_data.value }}">
+        {% endfor %}
+
+        <input type="submit" id="submit" value="Confirm" />
+    </form>
+
+</body>
+<script>
+    // document.getElementById('submit').click()
+</script>
+
+</html>

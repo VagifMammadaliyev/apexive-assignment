@@ -1,0 +1,388 @@
+[
+    {
+        "model": "customer.role",
+        "pk": 1,
+        "fields": {
+            "type": "user"
+        }
+    },
+    {
+        "model": "customer.role",
+        "pk": 2,
+        "fields": {
+            "type": "admin"
+        }
+    },
+    {
+        "model": "customer.role",
+        "pk": 3,
+        "fields": {
+            "type": "cashier"
+        }
+    },
+    {
+        "model": "customer.role",
+        "pk": 4,
+        "fields": {
+            "type": "warehouseman"
+        }
+    },
+    {
+        "model": "customer.role",
+        "pk": 5,
+        "fields": {
+            "type": "shopping_assistant"
+        }
+    },
+    {
+        "model": "customer.role",
+        "pk": 6,
+        "fields": {
+            "type": "content_manager"
+        }
+    },
+    {
+        "model": "customer.role",
+        "pk": 7,
+        "fields": {
+            "type": "monitor"
+        }
+    },
+    {
+        "model": "customer.role",
+        "pk": 8,
+        "fields": {
+            "type": "customer_service"
+        }
+    },
+    {
+        "model": "customer.role",
+        "pk": 9,
+        "fields": {
+            "type": "customs_agent"
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "created",
+            "display_name": "Yarad\u0131ld\u0131",
+            "display_name_az": "Yarad\u0131ld\u0131",
+            "display_name_ru": "\u0421\u043e\u0437\u0434\u0430\u043d",
+            "display_name_en": null,
+            "type": "order_statuses",
+            "order": 100,
+            "extra": {
+                "icon": "mdi-plus-outline",
+                "color": "#FF8000"
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "paid",
+            "display_name": "\u00d6d\u0259nildi",
+            "display_name_az": "\u00d6d\u0259nildi",
+            "display_name_ru": "\u041e\u043f\u043b\u0430\u0447\u0435\u043d",
+            "display_name_en": null,
+            "type": "order_statuses",
+            "order": 200,
+            "extra": {
+                "icon": "mdi-card-text-outline",
+                "next": "processing",
+                "color": "#1A1DDD"
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "ordered",
+            "display_name": "Sifari\u015f verildi",
+            "display_name_az": "Sifari\u015f verildi",
+            "display_name_ru": "\u0417\u0430\u043a\u0430\u0437\u0430\u043d",
+            "display_name_en": null,
+            "type": "order_statuses",
+            "order": 300,
+            "extra": {
+                "icon": "mdi-bookmark-outline",
+                "color": "#37DD00",
+                "is_final": true
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "deleted",
+            "display_name": "L\u0259\u011fv olundu",
+            "display_name_az": "L\u0259\u011fv olundu",
+            "display_name_ru": "\u041e\u0442\u043c\u0435\u043d\u0451\u043d",
+            "display_name_en": null,
+            "type": "order_statuses",
+            "order": 400,
+            "extra": {
+                "color": "#fcb0a4"
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "awaiting",
+            "display_name": "G\u00f6zl\u0259nilir",
+            "display_name_az": "G\u00f6zl\u0259nilir",
+            "display_name_ru": "\u041e\u0436\u0438\u0434\u0430\u0435\u0442\u0441\u044f",
+            "display_name_en": null,
+            "type": "package_statuses",
+            "order": 100,
+            "extra": {
+                "next": "foreign",
+                "color": "green"
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "foreign",
+            "display_name": "Xaricd\u0259ki anbarda",
+            "display_name_az": "Xaricd\u0259ki anbarda",
+            "display_name_ru": "\u041d\u0430 \u0441\u043a\u043b\u0430\u0434\u0435 \u0437\u0430 \u0433\u0440\u0430\u043d\u0438\u0446\u0435\u0439",
+            "display_name_en": null,
+            "type": "package_statuses",
+            "order": 300,
+            "extra": {
+                "color": "green",
+                "is_final": true
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "ontheway",
+            "display_name": "Yoldad\u0131r",
+            "display_name_az": "Yoldad\u0131r",
+            "display_name_ru": "\u0412 \u043f\u0443\u0442\u0438",
+            "display_name_en": null,
+            "type": "shipment_statuses",
+            "order": 400,
+            "extra": {
+                "icon": "air-plane",
+                "color": "#0061af"
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "received",
+            "display_name": "Yerli anbarda",
+            "display_name_az": "Yerli anbarda",
+            "display_name_ru": "\u041c\u0435\u0441\u0442\u043d\u044b\u0439 \u0441\u043a\u043b\u0430\u0434",
+            "display_name_en": null,
+            "type": "shipment_statuses",
+            "order": 500,
+            "extra": {
+                "icon": "mdi-warehouse",
+                "color": "#00BA00"
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "done",
+            "display_name": "T\u0259hvil verildi",
+            "display_name_az": "T\u0259hvil verildi",
+            "display_name_ru": "\u041f\u0435\u0440\u0435\u0434\u0430\u043d \u043a\u043b\u0438\u0435\u043d\u0442\u0443",
+            "display_name_en": null,
+            "type": "shipment_statuses",
+            "order": 600,
+            "extra": {
+                "icon": "mdi-check",
+                "color": "green",
+                "is_final": true
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "deleted",
+            "display_name": "L\u0259\u011fv olundu",
+            "display_name_az": "L\u0259\u011fv olundu",
+            "display_name_ru": "\u041e\u0442\u043c\u0435\u043d\u0451\u043d",
+            "display_name_en": null,
+            "type": "package_statuses",
+            "order": 900,
+            "extra": {
+                "color": "green"
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "processing",
+            "display_name": "\u0130cra olunur",
+            "display_name_az": "\u0130cra olunur",
+            "display_name_ru": "\u041e\u0431\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u0442\u0441\u044f",
+            "display_name_en": null,
+            "type": "order_statuses",
+            "order": 250,
+            "extra": {
+                "icon": "mdi-progress-clock",
+                "color": "#6BDD1A"
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "unpaid",
+            "display_name": "Tam \u00f6d\u0259nilm\u0259yib",
+            "display_name_az": "Tam \u00f6d\u0259nilm\u0259yib",
+            "display_name_ru": "\u041d\u0435 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u043e\u043f\u043b\u0430\u0447\u0435\u043d",
+            "display_name_en": null,
+            "type": "order_statuses",
+            "order": 225,
+            "extra": {
+                "icon": "mdi-credit-card-scan-outline",
+                "color": "#F8FC05"
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "processing",
+            "display_name": "\u0130cra olunur",
+            "display_name_az": "\u0130cra olunur",
+            "display_name_ru": "\u041e\u0431\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u0442\u0441\u044f",
+            "display_name_en": null,
+            "type": "shipment_statuses",
+            "order": 100,
+            "extra": {
+                "icon": "mdi-progress-clock",
+                "color": "#37DD00"
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "deleted",
+            "display_name": "L\u0259\u011fv olundu",
+            "display_name_az": "L\u0259\u011fv olundu",
+            "display_name_ru": "\u041e\u0442\u043c\u0435\u043d\u0451\u043d",
+            "display_name_en": null,
+            "type": "shipment_statuses",
+            "order": 900,
+            "extra": {
+                "icon": "mdi-trash-can-outline",
+                "color": "#E60033 "
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "tobeshipped",
+            "display_name": "G\u00f6d\u0259rilm\u0259k \u00fc\u00e7\u00fcn haz\u0131rd\u0131r",
+            "display_name_az": "G\u00f6d\u0259rilm\u0259k \u00fc\u00e7\u00fcn haz\u0131rd\u0131r",
+            "display_name_ru": "\u0413\u043e\u0442\u043e\u0432 \u043a \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044e",
+            "display_name_en": null,
+            "type": "shipment_statuses",
+            "order": 200,
+            "extra": {
+                "icon": "mdi-progress-check",
+                "color": "#008080"
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "problematic",
+            "display_name": "B\u0259yan edilm\u0259mi\u015f",
+            "display_name_az": "B\u0259yan edilm\u0259mi\u015f",
+            "display_name_ru": "\u041d\u0435 \u0434\u0435\u043a\u043b\u0430\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+            "display_name_en": null,
+            "type": "package_statuses",
+            "order": 200,
+            "extra": {
+                "color": "red"
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "customs",
+            "display_name": "G\u00f6mr\u00fckd\u0259",
+            "display_name_az": "G\u00f6mr\u00fckd\u0259",
+            "display_name_ru": "\u041d\u0430 \u0442\u0430\u043c\u043e\u0436\u043d\u0435",
+            "display_name_en": null,
+            "type": "shipment_statuses",
+            "order": 450,
+            "extra": {}
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "accepted",
+            "display_name": "Q\u0259bul edildi",
+            "display_name_az": "Q\u0259bul edildi",
+            "display_name_ru": "\u041f\u0440\u0438\u043d\u044f\u0442",
+            "display_name_en": "Accepted",
+            "type": "ticket_statuses",
+            "order": 100,
+            "extra": {}
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "investigating",
+            "display_name": "Ara\u015fd\u0131r\u0131l\u0131r",
+            "display_name_az": "Ara\u015fd\u0131r\u0131l\u0131r",
+            "display_name_ru": "\u0420\u0430\u0441\u0441\u043b\u0435\u0434\u0443\u0435\u0442\u0441\u044f",
+            "display_name_en": "Investigating",
+            "type": "ticket_statuses",
+            "order": 200,
+            "extra": {}
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "closed",
+            "display_name": "H\u0259ll edildi",
+            "display_name_az": "H\u0259ll edildi",
+            "display_name_ru": "\u0420\u0435\u0448\u0435\u043d\u043e",
+            "display_name_en": "Closed",
+            "type": "ticket_statuses",
+            "order": 300,
+            "extra": {
+                "is_final": true
+            }
+        }
+    },
+    {
+        "model": "fulfillment.status",
+        "fields": {
+            "codename": "deleted",
+            "display_name": "Silindi",
+            "display_name_az": "Silindi",
+            "display_name_ru": "\u0423\u0434\u0430\u043b\u0435\u043d\u043e",
+            "display_name_en": "Deleted",
+            "type": "ticket_statuses",
+            "order": 900,
+            "extra": {}
+        }
+    }
+]

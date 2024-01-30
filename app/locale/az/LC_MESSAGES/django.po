@@ -1,0 +1,887 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-28 17:33+0400\n"
+"PO-Revision-Date: 2020-09-07 12:56+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: customer/models/user.py:79
+msgid "Phone number cannot be blank"
+msgstr "Telefon nömrəsi boş qala bilməz"
+
+#: domain/exceptions/logic.py:100
+msgid "Kuryer sifarişində xəta"
+msgstr "Kuryer sifarişində xəta"
+
+#: domain/exceptions/logic.py:104
+msgid "Kuryer sifarişi yerləşdirilə bilmədi"
+msgstr "Kuryer sifarişi yerləşdirilə bilmədi"
+
+#: fulfillment/models/notification.py:190
+msgid "İstifadəçi profildə e-poçt yazanda"
+msgstr "İstifadəçi profildə e-poçt yazanda"
+
+#: fulfillment/models/notification.py:191
+msgid "Problemli bağlama yarandı"
+msgstr "Problemli bağlama yarandı"
+
+#: fulfillment/models/notification.py:192
+msgid "Bağlama xarici anbara daxil oldu"
+msgstr "Bağlama xarici anbara daxil oldu"
+
+#: fulfillment/models/notification.py:193
+msgid "Göndərmə göndərilmək üçün hazır oldu"
+msgstr "Bağlama uçuş üçün hazır edildi"
+
+#: fulfillment/models/notification.py:194
+msgid "Göndərmə hava limanına təhvil verildi"
+msgstr "Bağlama hava limanına təhvil verildi"
+
+#: fulfillment/models/notification.py:195
+msgid "Göndərmə yerli anbara daxil oldu"
+msgstr "Bağlama yerli anbara daxil oldu"
+
+#: fulfillment/models/notification.py:196
+msgid "Göndərmə müştəriyə təhvil verildi"
+msgstr "Bağlama müştəriyə təhvil verildi"
+
+#: fulfillment/models/notification.py:197
+msgid "Göndərmə gömrükdə yoxlanışdan keçdi"
+msgstr "Bağlama gömrük yoxlanışından keçdi"
+
+#: fulfillment/models/notification.py:200
+msgid "Göndərmənin qiyməti təyin olundu və ödəniş yarandı"
+msgstr "Bağlamanın qiyməti təyin edildi və ödəniş yarandı"
+
+#: fulfillment/models/notification.py:202
+msgid "Sifariş köməkçi tərəfindən verildi"
+msgstr "Sifariş köməkçi tərəfindən verildi"
+
+#: fulfillment/models/notification.py:203
+msgid "Sifariş üçün ödəniş yarandı"
+msgstr "Sifariş üçün ödəniş yarandı"
+
+#: fulfillment/models/notification.py:204
+msgid "Sifariş köməkçi tərəfindən ləğv olundu"
+msgstr "Sifariş köməkçi tərəfindən ləğv edildi"
+
+#: fulfillment/models/notification.py:205
+msgid "Sifarişin artıq ödənişi iadə edildi"
+msgstr "Sifarişin artıq ödənişi iadə edildi"
+
+#: fulfillment/models/notification.py:206
+msgid "Sifarişin qalıq ödənişi yarandı"
+msgstr "Sifarişin qalıq ödənişi yarandı"
+
+#: fulfillment/models/notification.py:207
+msgid "Sifarişin artıq ödənişi yeniləndi"
+msgstr "Sifarişin artıq ödənişi yeniləndi"
+
+#: fulfillment/models/notification.py:208
+msgid "Sifarişə köməkçi tərəfindən rəy yazıldı"
+msgstr "Sifarişə köməkçi tərəfindən rəy yazıldı"
+
+#: ontime/messages.py:6
+msgid "Şifrənizdə ən azı 1 rəqəm olmalıdır"
+msgstr "Şifrənizdə ən azı 1 rəqəm olmalıdır"
+
+#: ontime/messages.py:7
+msgid "Şifrəniz ən azı 8 simvoldan ibarət olmalıdır"
+msgstr "Şifrəniz ən azı 8 simvoldan ibarət olmalıdır"
+
+#: ontime/messages.py:8
+msgid "Bu E-poçt artıq istifadə olunur"
+msgstr "Bu e-poçt artıq istifadə olunur"
+
+#: ontime/messages.py:9
+msgid "Yalnış seriya nömrəsi"
+msgstr "Yanlış seriya nömrəsi"
+
+#: ontime/messages.py:10
+msgid "Yalnış FİN kod"
+msgstr "Yanlış FİN kod"
+
+#: ontime/messages.py:11
+msgid "Hesabınız təsdiqləndi"
+msgstr "Hesabınız təsdiqləndi"
+
+#: ontime/messages.py:12
+msgid "E-poçtunuz təsdiqləndi"
+msgstr "E-poçtunuz təsdiqləndi"
+
+#: ontime/messages.py:13
+msgid "Telefon nömrənizə təsdiqlənmə kodu göndərildi"
+msgstr "Telefon nömrənizə təsdiqlənmə kodu göndərildi"
+
+#: ontime/messages.py:14
+msgid "Təsdiqlənmə kodu yenidən göndərildi"
+msgstr "Təsdiqlənmə kodu yenidən göndərildi"
+
+#: ontime/messages.py:15
+msgid "Bu sahə vacibdir"
+msgstr "Bu sahə vacibdir"
+
+#: ontime/messages.py:16
+msgid "İstifadəçi"
+msgstr "İstifadəçi"
+
+#: ontime/messages.py:17
+msgid "Admin"
+msgstr "Admin"
+
+#: ontime/messages.py:18
+msgid "Kassir"
+msgstr "Kassir"
+
+#: ontime/messages.py:19
+msgid "Anbardar"
+msgstr "Anbardar"
+
+#: ontime/messages.py:20
+msgid "Alış-veriş köməkçisi"
+msgstr "Alış-veriş köməkçisi"
+
+#: ontime/messages.py:21
+msgid "Kontent menecer"
+msgstr "Kontent menecer"
+
+#: ontime/messages.py:22
+msgid "Müştəri xidməti"
+msgstr "Müştəri xidməti"
+
+#: ontime/messages.py:23
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ontime/messages.py:24
+msgid "Kuryer"
+msgstr "Kuryer"
+
+#: ontime/messages.py:25
+msgid "Gömrük Agenti"
+msgstr "Gömrük Agenti"
+
+#: ontime/messages.py:26
+msgid "Kişi"
+msgstr "Kişi"
+
+#: ontime/messages.py:27
+msgid "Qadın"
+msgstr "Qadın"
+
+#: ontime/messages.py:28
+msgid "Ödəniş sisteminə bağlanmada xəta"
+msgstr "Ödəniş sisteminə bağlanma xətası"
+
+#: ontime/messages.py:29
+msgid "Yalnış və ya qüsurlu məlumat"
+msgstr "Yanlış və ya qüsurlu məlumat"
+
+#: ontime/messages.py:30
+msgid "Məbləğ düzgün formatda deyil"
+msgstr "Məbləğ düzgün formatda deyil"
+
+#: ontime/messages.py:31
+msgid "Məbləğ 0-dan böyük olmalıdır"
+msgstr "Məbləğ 0-dan yuxarı olmalıdır"
+
+#: ontime/messages.py:32
+msgid "Yalnış valyuta"
+msgstr "Yanlış valyuta"
+
+#: ontime/messages.py:33
+msgid "Bağlamasız göndərmə yaradıla bilməz"
+msgstr "Bağlamasız göndərmə yaradıla bilməz"
+
+#: ontime/messages.py:35
+msgid "Seçilən anbara göndərilə bilməz, adres məlumatlarınızı yoxlayın"
+msgstr "Seçilən anbara göndərilə bilməz, adres məlumatlarını yoxlayın"
+
+#: ontime/messages.py:37
+msgid "Yeni ödəniş növü yalnışdır"
+msgstr "Yeni ödəniş növü yanlışdır"
+
+#: ontime/messages.py:38
+msgid "Artıq ödənilib"
+msgstr "Artıq ödənilib"
+
+#: ontime/messages.py:40
+msgid "Üsullar və valyutalar eyni olmalıdırlar"
+msgstr "Üsullar və valyutalar eyni olmalıdır"
+
+#: ontime/messages.py:42
+msgid "Kartla ödəniş uğursuz"
+msgstr "Kartla ödəniş uğursuzdur"
+
+#: ontime/messages.py:43
+#, python-format
+msgid "Sifarişiniz yerləşdirildi (%(order_code)s)"
+msgstr "Sifarişiniz yerləşdirildi (%(order_code)s)"
+
+#: ontime/messages.py:44
+msgid "Gönərmənin qiyməti təyin olunmayıb"
+msgstr "Bağlamanın qiyməti təyin edilməyib"
+
+#: ontime/messages.py:46
+#, python-format
+msgid "%(shipment_number)s nömrəli göndərmənin statusu yeniləndi"
+msgstr "%(shipment_number)s nömrəli göndərmənin statusu yeniləndi"
+
+#: ontime/messages.py:49
+#, python-format
+msgid "Göndərmə uçuş üçün hazırlanır (%(city)s)"
+msgstr "Bağlama uçuş üçün hazırlanır (%(city)s)"
+
+#: ontime/messages.py:51
+#, python-format
+msgid "Göndərmə xarici anbarı tərk etdi (%(city)s)"
+msgstr "Bağlama xarici anbarı tərk etdi (%(city)s)"
+
+#: ontime/messages.py:53
+#, python-format
+msgid "Göndərmə yerli anbara daxil oldu (%(warehouse)s)"
+msgstr "Bağlama yerli anbara daxil oldu (%(warehouse)s)"
+
+#: ontime/messages.py:55
+msgid "Göndərmə təhvil verildi"
+msgstr "Bağlama təhvil verildi"
+
+#: ontime/messages.py:56
+msgid "Göndərmə gömrükdə"
+msgstr "Bağlama gömrükdədir"
+
+#: ontime/messages.py:57
+msgid "Problemli bağlama"
+msgstr "Problemli bağlama"
+
+#: ontime/messages.py:59
+#, python-format
+msgid ""
+"Sizin adınıza %(tracking_code)s izləmə kodu ilə bağlama xarici anbara daxil "
+"olub. Xahiş edirik bağlama haqqında məlumatı tamamlayasız"
+msgstr ""
+"Sizin adınıza %(tracking_code)s izləmə kodlu bağlama xarici anbara daxil "
+"olub. Xahiş edirik bağlama haqqında məlumatı tamamlayın"
+
+#: ontime/messages.py:62
+#, python-format
+msgid "Bağlamanız xarici anbara daxil oldu (%(tracking_code)s)"
+msgstr "Bağlamanız xarici anbara daxil oldu (%(tracking_code)s)"
+
+#: ontime/messages.py:65
+#, python-format
+msgid ""
+"Sizin %(tracking_code)s izləmə kodu ilə bağlama xarici anbarımıza daxil oldu"
+msgstr ""
+"Sizin %(tracking_code)s izləmə kodlu bağlamanız xarici anbarımıza daxil oldu"
+
+#: ontime/messages.py:67
+#, python-format
+msgid "Yeni gözlənilən ödəniş (%(order_code)s)"
+msgstr "Yeni gözlənilən ödəniş (%(order_code)s)"
+
+#: ontime/messages.py:68
+msgid "Sifariş ödəndikdən sonra icra olunacaq"
+msgstr "Sifariş ödəndikdən sonra icra olunacaq"
+
+#: ontime/messages.py:70
+msgid "Göndərmənin qiyməti təyin oluna bilməmişdır. Tarifləri yoxlayın"
+msgstr "Bağlamanın qiyməti təyin edilə bilmədi. Tarifləri yoxlayın"
+
+#: ontime/messages.py:73
+#, python-format
+msgid "%(shipment_number)s nömrəli göndərmənizin qiyməti təyin olundu"
+msgstr "%(shipment_number)s nömrəli bağlamanızın qiyməti təyin olundu"
+
+#: ontime/messages.py:76
+#, python-format
+msgid ""
+"%(shipment_number)s nömrəli göndərmənizi ya online balansınız ilə və ya "
+"təhvil alan vaxtı ödəyə bilərsiz"
+msgstr ""
+"%(shipment_number)s nömrəli bağlamanızı online balans vasitəsi ilə və ya "
+"təhvil aldığınız zaman ödəyə bilərsiniz"
+
+#: ontime/messages.py:78
+msgid "Sifariş ödənilməyib"
+msgstr "Sifariş ödənilməyib"
+
+#: ontime/messages.py:79
+msgid "Sifariş ləğv oluna bilməz"
+msgstr "Sifariş ləğv oluna bilməz"
+
+#: ontime/messages.py:80
+#, python-format
+msgid "Sifarişiniz ləğv olundu (%(order_code)s)"
+msgstr "Sifarişiniz ləğv edildi (%(order_code)s)"
+
+#: ontime/messages.py:82
+#, python-format
+msgid ""
+"Sifarişiniz ləğv olundu və ödədiyiniz məbləğ (%(refund_amount)s) balansınıza "
+"geri qaytarıldı"
+msgstr ""
+"Sifarişiniz ləğv edildi və ödədiyiniz məbləğ (%(refund_amount)s) balansınıza "
+"geri qaytarıldı"
+
+#: ontime/messages.py:85
+msgid "Sifarişin artıq yada əskiy ödəniş məbləği yoxdur"
+msgstr "Sifarişin artıq ya da əskik ödəniş məbləği yoxdur"
+
+#: ontime/messages.py:87
+#, python-format
+msgid "Ödənişiniz yeniləndi (%(order_code)s)"
+msgstr "Ödənişiniz yeniləndi (%(order_code)s)"
+
+#: ontime/messages.py:89
+#, python-format
+msgid ""
+"%(order_code)s nömrəli sifariş üçün ödəniş məbləği operator tərəfindən səhv "
+"qeyd edildiyinə görə yeniləndi"
+msgstr ""
+"%(order_code)s nömrəli sifarişin ödəniş məbləği operator tərəfindən səhv "
+"qeyd edildiyinə görə yeniləndi"
+
+#: ontime/messages.py:92
+#, python-format
+msgid "Sifarişinizin qiymətində yalnışlıq (%(order_code)s)"
+msgstr "Sifarişinizin qiymətində yanlışlıq (%(order_code)s)"
+
+#: ontime/messages.py:95
+#, python-format
+msgid ""
+"%(order_code)s nömrəli sifariş üçün qeyd etdiyiniz qiymət yalnış olduğuna "
+"görə qalıq məbləği ödəməniz xahış olunur"
+msgstr ""
+"%(order_code)s nömrəli sifariş üçün qeyd etdiyiniz qiymət yanlış olduğuna "
+"görə qalıq məbləği ödəməyiniz xahiş olunur"
+
+#: ontime/messages.py:97
+#, python-format
+msgid "Artıq ödənişinizi sizə qaytardıq (%(order_code)s)"
+msgstr "Artıq ödənişiniz sizə qaytarılıb (%(order_code)s)"
+
+#: ontime/messages.py:99
+#, python-format
+msgid ""
+"%(order_code)s nömrəli sifarişdə qeyd etdiyiniz qiymət artıq olduğuna görə "
+"balansınıza qaytardıq"
+msgstr ""
+"%(order_code)s nömrəli sifarişdə qeyd etdiyiniz qiymət artıq olduğuna görə "
+"balansınıza qaytarılıb"
+
+#: ontime/messages.py:102
+msgid "Boks üçün çatdırılacaq anbar müəyyənləşə bilmədi"
+msgstr "Boksun çatacağı anbar müəyyən edilə bilmədi"
+
+#: ontime/messages.py:104
+msgid "Göndərmələrin ən azı biri təsdiqlənməyib"
+msgstr "Bağlamanın ən az biri təsdiq olunmayıb"
+
+#: ontime/messages.py:105
+msgid "Bu boks artıq göndərilib və ya göndərilmə üzrədir"
+msgstr "Bu boks artıq göndərilib və ya göndərilmək üzrədir"
+
+#: ontime/messages.py:107
+msgid ""
+"Göndərmə artıq təsdiqlənib və ya təsdiqlənə bilməz. Ölçülərin, çəkisini, "
+"servis olunduğunu və ya tarifləri yoxlayın"
+msgstr ""
+"Bağlama artıq təsdiqlənib və ya təsdiqlənə bilməz. Ölçülərinı, çəkisini, "
+"servis olunduğunu və ya tarifləri yoxlayın"
+
+#: ontime/messages.py:110
+msgid "Qoşma tələb edən bəzi servislərin qoşmaları yoxdur"
+msgstr "Qoşma tələb edən bəzi servislərin qoşmaları yoxdur"
+
+#: ontime/messages.py:113
+#, python-format
+msgid "Sizin %(shipment_number)s nömrəli göndərməniz hal hazırda gömrükdədir"
+msgstr "Sizin %(shipment_number)s nömrəli bağlamanız hal hazırda gömrükdədir"
+
+#: ontime/messages.py:116
+#, python-format
+msgid ""
+"Sizin %(shipment_number)s nörməli göndərməniz gömrükdədir. Status: "
+"%(tracking_status)s"
+msgstr ""
+"Sizin %(shipment_number)s nörməli bağlamanız gömrükdədir. Status: "
+"%(tracking_status)s"
+
+#: ontime/messages.py:118
+msgid "Tarif qiyməti"
+msgstr "Tarif qiyməti"
+
+#: ontime/messages.py:119
+#, python-format
+msgid "Servis: %(service_title)s"
+msgstr "Xidmət: %(service_title)s"
+
+#: ontime/messages.py:121
+#, python-format
+msgid "Bağlama %(package_tracking_code)s servisi: %(service_title)s"
+msgstr "Bağlama %(package_tracking_code)s xidməti: %(service_title)s"
+
+#: ontime/messages.py:123
+msgid "Malın qiyməti"
+msgstr "Malın qiyməti"
+
+#: ontime/messages.py:124
+msgid "Ölkədaxili karqo"
+msgstr "Ölkədaxili karqo"
+
+#: ontime/messages.py:125
+msgid "Kommissiya haqqı"
+msgstr "Kommissiya haqqı"
+
+#: ontime/messages.py:127
+msgid "Göndərmələr ya artıq təhvil verilib, yada artıq növbədədirlər."
+msgstr "Bağlamalar növbədədir və ya artıq təhvil verilib."
+
+#: ontime/messages.py:129
+msgid "Növbədə gözləyən yoxdur"
+msgstr "Növbədə gözləyən yoxdur"
+
+#: ontime/messages.py:130
+msgid "Növbə artıq təyin olunub"
+msgstr "Növbə artıq təyin olunub"
+
+#: ontime/messages.py:131
+msgid "Müştəri xidməti növbəsinə təyin oluna bilməz"
+msgstr ""
+
+#: ontime/messages.py:132
+msgid "Anbardar növbəsinə təkrar təyin oluna bilməz"
+msgstr ""
+
+#: ontime/messages.py:133
+msgid "Kassir növbəsinə təkrar təyin oluna bilməz"
+msgstr ""
+
+#: ontime/messages.py:135
+msgid "Anbardar hazır etməmiş kassir növbəsinə təyin oluna bilməz"
+msgstr ""
+
+#: ontime/messages.py:137
+msgid "Kassir növbəsinə təyin oluna bilməz"
+msgstr ""
+
+#: ontime/messages.py:139
+msgid "Yalnız müştəri xidməti növbəsinə təyin oluna bilər"
+msgstr ""
+
+#: ontime/messages.py:141
+msgid "Bu nömrə arıq istifadə olunur"
+msgstr "Bu nömrə arıq istifadə olunur"
+
+#: ontime/messages.py:142
+msgid "Tam telefon nömrəniz qeyd olunmalıdır."
+msgstr "Telefon nömrəniz tam qeyd olunmalıdır."
+
+#: ontime/messages.py:143
+msgid "Qeyd etdiyiniz telefon nömrəsi dəstəklənmir"
+msgstr "Qeyd etdiyiniz telefon nömrəsi dəstəklənmir"
+
+#: ontime/messages.py:144
+msgid "Xəta baş verdi"
+msgstr "Xəta baş verdi"
+
+#: ontime/messages.py:145
+msgid "Profil xətası baş verdi"
+msgstr "Profil xətası baş verdi"
+
+#: ontime/messages.py:146
+msgid "Profiliniz tamamlanmayıb"
+msgstr "Profiliniz tamamlanmayıb"
+
+#: ontime/messages.py:147
+msgid "Təsdiqlənmə kodu yalnışdır"
+msgstr "Təsdiqlənmə kodu yanlışdır"
+
+#: ontime/messages.py:148
+msgid "Artıq təsdiqlənib"
+msgstr "Artıq təsdiqlənib"
+
+#: ontime/messages.py:149
+msgid "E-poçtunuz təsdiqlənmədi"
+msgstr "E-poçtunuz təsdiqlənmədi"
+
+#: ontime/messages.py:150
+msgid "Balans əməliyyat xətası"
+msgstr "Balans əməliyyatı xətası"
+
+#: ontime/messages.py:151
+msgid "Balansda kifayət qədər məbləğ yoxdur"
+msgstr "Balansda kifayət qədər vəsait yoxdur"
+
+#: ontime/messages.py:152
+msgid "İstifadəçi məlumatları tam deyil"
+msgstr "İstifadəçi məlumatları tam deyil"
+
+#: ontime/messages.py:153
+msgid "Sifarişlə bağlı xəta baş verdi"
+msgstr "Sifarişlə bağlı xəta baş verdi"
+
+#: ontime/messages.py:154
+msgid "Bu əməliyyat baş verə bilməz"
+msgstr "Bu əməliyyat baş verə bilməz"
+
+#: ontime/messages.py:155
+msgid "Bağlamalar bir ölkəyə aid olmalıdır"
+msgstr "Bağlamalar bir ölkəyə aid olmalıdır"
+
+#: ontime/messages.py:157
+msgid "Bağlamalardan birin artıq qəbul etmisiz"
+msgstr "Bağlamalardan birini artıq qəbul etmisiniz"
+
+#: ontime/messages.py:160
+msgid "Növbə xətası"
+msgstr "Növbə xətası"
+
+#: ontime/messages.py:161
+msgid "Anbarda növbə mövcud deyil"
+msgstr "Anbarda növbə mövcud deyil"
+
+#: ontime/messages.py:162
+msgid "Ödəniş baş vermədi"
+msgstr "Ödəniş baş vermədi"
+
+#: ontime/messages.py:163
+msgid "Sistem mesajı"
+msgstr "Sistem mesajı"
+
+#: ontime/messages.py:164
+msgid "Ödəniş üçün"
+msgstr "Ödəniş üçün"
+
+#: ontime/messages.py:165
+msgid "Sifariş üçün"
+msgstr "Sifariş üçün"
+
+#: ontime/messages.py:166
+msgid "Göndərmə üçün"
+msgstr "Çatdırma"
+
+#: ontime/messages.py:167
+msgid "Bağlama üçün"
+msgstr "Bağlama üçün"
+
+#: ontime/messages.py:168
+msgid "Başqa"
+msgstr "Başqa"
+
+#: ontime/messages.py:169
+msgid "Kassir növbəsi"
+msgstr "Kassir növbəsi"
+
+#: ontime/messages.py:170
+msgid "Anbardar növbəsi"
+msgstr "Anbardar növbəsi"
+
+#: ontime/messages.py:171
+msgid "Müştəri xidməti növbəsi"
+msgstr "Müştəri xidməti növbəsi"
+
+#: ontime/messages.py:172
+msgid "Növbə üçün"
+msgstr "Növbə üçün"
+
+#: ontime/messages.py:173
+msgid "Müştəri üçün"
+msgstr "Müştəri üçün"
+
+#: ontime/messages.py:174 ontime/messages.py:178 ontime/messages.py:182
+msgid "Bağlamalar üçün"
+msgstr "Bağlamalar üçün"
+
+#: ontime/messages.py:175 ontime/messages.py:179 ontime/messages.py:183
+msgid "Göndərmələr üçün"
+msgstr "Çatdırmalar üçün"
+
+#: ontime/messages.py:176
+msgid "Hava ilə"
+msgstr "Hava ilə"
+
+#: ontime/messages.py:177 ontime/messages.py:181
+msgid "Sifarişlər üçün"
+msgstr "Sifarişlər üçün"
+
+#: ontime/messages.py:180 ontime/messages.py:184
+msgid "Kuryer sifarişləri üçün"
+msgstr "Kuryer sifarişi üçün"
+
+#: ontime/messages.py:185
+msgid "Müraciətlər üçün"
+msgstr "Müraciətlər üçün"
+
+#: ontime/messages.py:186
+msgid "Sifariş ödənişi"
+msgstr "Sifariş ödənişi"
+
+#: ontime/messages.py:187
+msgid "Göndərmə ödənişi"
+msgstr "Çatdırma ödənişi"
+
+#: ontime/messages.py:188
+msgid "Sifariş qalığı ödənişi"
+msgstr "Sifarişin qalığ ödənişi"
+
+#: ontime/messages.py:189
+msgid "Sifarişin geri ödənişi"
+msgstr "Sifariş ödənişin geri qaytarılması"
+
+#: ontime/messages.py:190
+msgid "Sifarişin artıq ödənişin qaytarılması"
+msgstr "Sifarişin artıq ödənişinin qaytarılması"
+
+#: ontime/messages.py:191
+msgid "Göndərmənın geri ödənişi"
+msgstr "Çatdırma ödənişin geri qaytarılması"
+
+#: ontime/messages.py:192
+msgid "Balans artırılması"
+msgstr "Balansın artırılması"
+
+#: ontime/messages.py:193
+msgid "Balansdan çıxarış"
+msgstr "Balansdan çıxarış"
+
+#: ontime/messages.py:194
+msgid "Birləşmiş"
+msgstr "Birləşmiş"
+
+#: ontime/messages.py:195
+msgid "Kart"
+msgstr "Kart"
+
+#: ontime/messages.py:196
+msgid "Nağd"
+msgstr "Nağd"
+
+#: ontime/messages.py:197
+msgid "Balans"
+msgstr "Balans"
+
+#: ontime/messages.py:198
+msgid "Təyinat şəhəri ilə birlikdə verilməlidir"
+msgstr "Təyinat şəhər ilə birlikdə qeyd edilməlidir"
+
+#: ontime/messages.py:199
+msgid "Mənbə şəhəri ilə birlikdə verilməlidir"
+msgstr "Mənbə şəhər ilə birlikdə  qeyd edilməlidir"
+
+#: ontime/messages.py:200
+msgid "Təyinat ölkəsi ilə birlikdə verilməlidir"
+msgstr "Təyinat ölkə ilə birlikdə qeyd edilməlidir"
+
+#: ontime/messages.py:201
+msgid "Mənbə ölkəsi ilə birlikdə verilməlidir"
+msgstr "Mənbə ölkə ilə birlikdə qeyd edilməlidir"
+
+#: ontime/messages.py:202
+msgid "Məhsulun kateqoriyasına uyğun növ seçilməlidir"
+msgstr "Məhsulun kateqoriyasına uyğun növ seçilməlidir"
+
+#: ontime/messages.py:203
+msgid "Birbaşa göndərmək üçün alıcı mütləqdir"
+msgstr "Birbaşa göndərmək üçün alıcı mütləqdir"
+
+#: ontime/messages.py:204
+msgid "Birbaşa göndərmək üçün təyinan anbar mütləqdir"
+msgstr "Birbaşa göndərmək üçün anbarın təyin edilməsi mütləqdir"
+
+#: ontime/messages.py:205
+msgid "Məhsul növu yalnışdır"
+msgstr "Məhsul növü yanlışdır"
+
+#: ontime/messages.py:206
+msgid "Gomrük üçün malın haqqında məlumat mütləqdir"
+msgstr "Gomrük üçün mal haqqında məlumat mütləqdir"
+
+#: ontime/messages.py:207
+msgid "Adres sizə məxsus deyil"
+msgstr "Adres sizə məxsus deyil"
+
+#: ontime/messages.py:208
+msgid "Gözləmədən göndərilərsə adres mütləqdir"
+msgstr ""
+
+#: ontime/messages.py:209
+msgid "Yalnış format"
+msgstr "Yanlış format"
+
+#: ontime/messages.py:210
+msgid "Bu ölkə üçün göndərmə sonradan formalaşa bilməz"
+msgstr "Hal hazırda bu ölkə üçün anbarda saxlamaq mümkün deyil"
+
+#: ontime/messages.py:212
+#, python-format
+msgid "%(tracking_code)s göndərilə bilməz. Servis olunmayıb"
+msgstr "%(tracking_code)s göndərilə bilməz. Servis olunmayıb"
+
+#: ontime/messages.py:214
+#, python-format
+msgid "%(tracking_codes)s bağlamalarınızda tapılmadı"
+msgstr "%(tracking_codes)s bağlamalarınızda tapılmadı"
+
+#: ontime/messages.py:215
+msgid "Anbar seçilən ölkəyə uyğun deyil"
+msgstr "Anbar seçilən ölkəyə uyğun deyil"
+
+#: ontime/messages.py:216
+msgid "Malın əsl yiyəsi deyilsə bu xana boş olmamalıdır"
+msgstr "Malın əsl yiyəsi deyilsə bu xana boş olmamalıdır"
+
+#: ontime/messages.py:217
+msgid "Sizin olduğunuz anbara göndərilə bilməz"
+msgstr "Sizin olduğunuz anbara göndərilə bilməz"
+
+#: ontime/messages.py:218
+#, python-format
+msgid "%(order_code)s üçün yeni rəy"
+msgstr "%(order_code)s üçün yeni rəy"
+
+#: ontime/messages.py:219
+#, python-format
+msgid "Mətn: %(comment)s"
+msgstr "Mətn: %(comment)s"
+
+#: ontime/messages.py:220
+msgid "Məlumatlar yalnış və ya boşdur."
+msgstr "Məlumat yoxdur və ya yanlışdır."
+
+#: ontime/messages.py:221
+msgid "Ödəniş tapılmadı"
+msgstr "Ödəniş tapılmadı"
+
+#: ontime/messages.py:222
+msgid "PayPal ilə ödənişdə xəta"
+msgstr "PayPal ilə ödənişdə xəta"
+
+#: ontime/messages.py:223
+msgid "Mesaj göndərilə bilmədi"
+msgstr "Mesaj göndərilə bilmədi"
+
+#: ontime/messages.py:225
+msgid "Müştərinin telefon nömrəsi yalnış və ya xidmət əhatəsindən xaric"
+msgstr "Müştərinin telefon nömrəsi yanlış və ya əhatə dairəsi xaricindədir"
+
+#: ontime/messages.py:227
+msgid "Göstərilən növ üçün obyekt tapılmadı"
+msgstr "Göstərilən növ üçün obyekt tapılmadı"
+
+#: ontime/messages.py:228
+msgid "Artıq müraciət var"
+msgstr "Artıq müraciət mövcuddur"
+
+#: ontime/messages.py:229
+msgid "Sifariş"
+msgstr "Linklə sifariş"
+
+#: ontime/messages.py:230
+msgid "Bağlama"
+msgstr "Anbardakı bağlama"
+
+#: ontime/messages.py:231
+msgid "Çatdırılma"
+msgstr "Yoldakı bağlama"
+
+#: ontime/messages.py:232
+msgid "Ödəniş"
+msgstr "Ödəniş"
+
+#: ontime/messages.py:233
+msgid "Alıcı məlumatı istifadəçiyə aid deyil"
+msgstr "Alıcı məlumatı istifadəçiyə aid deyil"
+
+#: ontime/messages.py:235
+#, python-format
+msgid "Çatdırmalar istifadəçiyə aid deyil: %(numbers)s"
+msgstr ""
+
+#: ontime/messages.py:237 ontime/messages.py:243
+msgid "Kuryer ödənişi"
+msgstr "Kuryer ödənişi"
+
+#: ontime/messages.py:238
+#, python-format
+msgid "Kuryer ödənişi: %(count)s çatdırma"
+msgstr "Kuryer ödənişi: %(count)s çatdırma"
+
+#: ontime/messages.py:239
+msgid "Artıq lazımi qədər məbləğ balansınızdadır"
+msgstr "Tələb olunan məbləğ artıq balansınızdadır"
+
+#: ontime/messages.py:240
+msgid "Ancaq balansla ödənişləri bölmək olar"
+msgstr "Ödənişi ancaq balans ilə bölmək olar"
+
+#: ontime/messages.py:241
+msgid "Yalnış parol"
+msgstr "Yanlış parol"
+
+#: ontime/messages.py:242
+msgid "Yalnış kod"
+msgstr "Yanlış kod"
+
+#: ontime/messages.py:244
+#, python-format
+msgid "%(price)s%(currency)s-dan"
+msgstr "%(price)s%(currency)s-dan"
+
+#: ontime/messages.py:245
+msgid "Bu ölkə üçün göstərilən əməliyyat aparıla bilməz"
+msgstr "Bu ölkə üçün göstərilən əməliyyat aparıla bilməz"
+
+#: ontime/messages.py:246
+msgid "Seçdiyiniz region üçün tarif yanlışdır"
+msgstr ""
+
+#: ontime/messages.py:247
+msgid "Biri mütləqdir"
+msgstr ""
+
+#: ontime/messages.py:248
+#, fuzzy
+#| msgid "Yalnış valyuta"
+msgid "Yalnış hesab məlumatları"
+msgstr "Yanlış valyuta"
+
+#: ontime/messages.py:249
+msgid "Promo kod endirimi"
+msgstr ""
+
+#: ontime/messages.py:250
+msgid "Endirim"
+msgstr ""
+
+#: ontime/messages.py:251
+#, fuzzy
+#| msgid "Yalnış kod"
+msgid "Yanlış promo kod"
+msgstr "Yanlış kod"
+
+#: ontime/messages.py:252
+msgid "Cashback"
+msgstr ""
+
+#: ontime/messages.py:253
+msgid "Promo kod yanlış"
+msgstr ""
+
+#: ontime/messages.py:254
+msgid "Bağlama bu anbara gelmeyib"
+msgstr ""

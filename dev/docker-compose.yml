@@ -1,0 +1,31 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres:11
+    restart: "always"
+    ports:
+      - 5433:5432
+    volumes:
+      - ../db/postgres:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=ontime_db
+      - POSTGRES_USER=ontime_user
+      - POSTGRES_PASSWORD=b7RPc6dBk7Bxmf6fVldHG0Wek2vLVKOaqdY5kB4wZneKU8riQP4oR2wYcj2T2xEw
+      - POSTGRES_HOST=localhost
+      - POSTGRES_PORT=5432
+      - LC_ALL=C.UTF-8
+
+  redis:
+    image: redis:5
+    restart: "always"
+    # command: redis-server
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_PASSWORD=owSuegeP53xb8JCpuSOuCO6T2BMG69U6
+      - BROKER_URL=redis://:owSuegeP53xb8JCpuSOuCO6T2BMG69U6@redis:6379/0
+    ports:
+      - 6380:6379
+    volumes:
+      - ../db/redis:/var/lib/redis

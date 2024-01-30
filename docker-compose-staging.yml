@@ -1,0 +1,90 @@
+version: "3"
+
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./app:/code
+      - ./nginx/staging.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - api
+    networks:
+      - api-network
+
+  celery-worker:
+    container_name: celery-worker
+    build: .
+    restart: "always"
+    env_file: .env.staging
+    volumes:
+      - ./app:/code
+    networks:
+      - api-network
+    command: celery -A ontime worker -Q default,customs,notifications --loglevel=INFO --concurrency=5
+    depends_on:
+      - "redis"
+      - "postgres"
+
+  celery-beat:
+    container_name: celery-beat
+    build: .
+    restart: "always"
+    env_file: .env.staging
+    volumes:
+      - ./app:/code
+    networks:
+      - api-network
+    command: celery -A ontime beat -l INFO
+    depends_on:
+      - "redis"
+      - "postgres"
+
+  postgres:
+    container_name: postgres-db
+    image: postgres:11
+    restart: "always"
+    volumes:
+      - ./db/postgres:/var/lib/postgresql/data
+    env_file: .env.staging
+    networks:
+      - api-network
+
+  redis:
+    container_name: redis
+    image: redis:5
+    restart: "always"
+    # Hardcoded redis password here, because WTF?? docker-compose cant
+    # use variable from env_file if its name is not ".evn"!!!
+    command: redis-server --requirepass owSuegeP53xb8JCpuSOuCO6T2BMG69U6
+    env_file: .env.staging
+    volumes:
+      - ./db/redis:/var/lib/redis
+    networks:
+      - api-network
+    ports:
+      - "6379:6379"
+
+  api:
+    container_name: ontime-api
+    restart: "always"
+    build: .
+    depends_on:
+      - postgres
+    links:
+      - postgres
+    volumes:
+      - ./app:/code
+    env_file: .env.staging
+    environment:
+      - HTTP_PORT=8000
+    networks:
+      - api-network
+    sysctls:
+      - net.core.somaxconn=11000
+
+networks:
+  api-network:
+    driver: bridge

@@ -1,0 +1,66 @@
+version: "3"
+
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./app:/code
+      - ./nginx/prod.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - api
+    networks:
+      - api-network
+
+  celery-worker:
+    &celery-worker
+    container_name: celery-worker
+    build: .
+    restart: "always"
+    env_file: .env.production
+    volumes:
+      - ./app:/code
+    networks:
+      - api-network
+    command: celery -A ontime worker --loglevel=INFO --concurrency=3
+
+  celery-customs:
+    <<: *celery-worker
+    container_name: celery-customs
+    command: celery -A ontime worker -Q customs --loglevel=INFO --concurrency=5
+
+  celery-notifications:
+    <<: *celery-worker
+    container_name: celery-notification
+    command: celery -A ontime worker -Q notifications --concurrency=3 --loglevel=INFO
+
+  celery-beat:
+    container_name: celery-beat
+    build: .
+    restart: "always"
+    env_file: .env.production
+    volumes:
+      - ./app:/code
+    networks:
+      - api-network
+    command: celery -A ontime beat -l INFO
+
+  api:
+    container_name: ontime-api
+    restart: "always"
+    build: .
+    volumes:
+      - ./app:/code
+    env_file: .env.production
+    environment:
+      - HTTP_PORT=8000
+    networks:
+      - api-network
+    sysctls:
+      - net.core.somaxconn=11000
+
+networks:
+  api-network:
+    driver: bridge
